@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Danh sách thành viên</title>
+    <style>
+        body {
+      margin: 0;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .section {
+      background-color: #FFF2EB;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      font-family: Verdana, sans-serif;
+    }
+
+    .container {
+      width: 1180px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .title {
+      font-size: 48px;
+      font-weight: 700;
+      color: #192335;
+      margin-top: 0;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
+    .list {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .item {
+      width: calc(100%/3 - 60px/3);
+      text-align: center;
+      background-color: #FFFFFF;
+      border: 5px solid #eeeeee;
+      border-radius: 8px;
+      margin-top: 75px;
+    }
+
+    .item .avatar {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      overflow: hidden;
+      border: 6px solid #e6e3f1;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: -75px;
+    }
+
+    .item .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top;
+    }
+
+    .item .content {
+      padding: 20px;
+    }
+
+    .item .content .name {
+      margin-top: 0;
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+    .item .content .position {
+      margin-bottom: 15px;
+      font-size: 16px;
+      color: #1b43df;
+    }
+
+    .item .content .address {
+      margin-bottom: 15px;
+      font-size: 14px;
+      font-style: italic;
+      color: #6b7385;
+    }
+
+    .item .content .description {
+      margin-top: 0;
+      margin-bottom: 30px;
+      font-size: 16px;
+      color: #6b7385;
+    }
+
+    .item .content .socials a {
+      color: #6b7385;
+      font-size: 18px;
+      margin: 0 8px;
+    }
+
+    .item .content .socials a:hover {
+      color: #2F57EF;
+    }
+    .socialsimg {
+      width: 30px;
+      height: 30px;
+      object-fit: cover;
+      object-position: top;
+    }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <div class="container">
+          <h2 class="title">Danh sách thành viên</h2>
+          <div class="list">
+            
+            <div class="item">
+              <div class="avatar">
+                <img src="C:\Users\TRAN PHUOC DAT\Downloads\DanhSachThanhVien\imgDS\Duy.jpg" alt="Avatar 1">
+              </div>
+              <div class="content">
+                <h3 class="name">
+                  Nguyễn Lê Ngọc Duy
+                </h3>
+                <div class="position">
+                  Nhóm trưởng
+                </div>
+                <div class="address">
+                  <img src="D:\DanhSachThanhVien\imgDS\location.png" class="socialsimg"> Củ Chi, TP.HCM, VN
+                </div>
+                <p class="description">
+                  Làm HTML
+                </p>
+                <div class="socials">
+                    <a href="#" title="Facebook"><img src="D:\DanhSachThanhVien\imgDS\facebook.png" class="socialsimg"></a><a href="#">
+                    </a>
+                    <a href="#" title="Zalo"><img src="D:\DanhSachThanhVien\imgDS\zalo.png" class="socialsimg"></a><a href="#">
+                    </a>
+                    <a href="#" title="instagram"><img src="D:\DanhSachThanhVien\imgDS\instagram.png" class="socialsimg"></a><a href="#">
+                    </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="item">
+              <div class="avatar">
+                <img src="C:\Users\TRAN PHUOC DAT\Downloads\DanhSachThanhVien\imgDS\Dat.jpg" alt="Avatar 2">
+              </div>
+              <div class="content">
+                <h3 class="name">
+                  Trần Phước Đạt
+                </h3>
+                <div class="position">
+                  Thành viên
+                </div>
+                <div class="address">
+                  <img src="D:\DanhSachThanhVien\imgDS\location.png" class="socialsimg"> Cần Đước, LA, VN
+                </div>
+                <p class="description">
+                  Làm HTML
+                </p>
+                <div class="socials">
+                  <a href="#" title="Facebook"><img src="D:\DanhSachThanhVien\imgDS\facebook.png" class="socialsimg"></a><a href="#">
+                  </a>
+                  <a href="#" title="Zalo"><img src="D:\DanhSachThanhVien\imgDS\zalo.png" class="socialsimg"></a><a href="#">
+                  </a>
+                  <a href="#" title="instagram"><img src="D:\DanhSachThanhVien\imgDS\instagram.png" class="socialsimg"></a><a href="#">
+                  </a>
+                </div>
+              </div>
+            </div>
+    
+            <div class="item">
+              <div class="avatar">
+                <img src="C:\Users\TRAN PHUOC DAT\Downloads\DanhSachThanhVien\imgDS\Binh.jpg" alt="Avatar 3">
+              </div>
+              <div class="content">
+                <h3 class="name">
+                  Huỳnh Khánh Bình
+                </h3>
+                <div class="position">
+                  Thành viên
+                </div>
+                <div class="address">
+                  <img src="D:\DanhSachThanhVien\imgDS\location.png" class="socialsimg"> Bến Lức, LA, VN
+                </div>
+                <p class="description">
+                  Làm PowerPoint
+                </p>
+                <div class="socials">
+                  <a href="#" title="Facebook"><img src="D:\DanhSachThanhVien\imgDS\facebook.png" class="socialsimg"></a><a href="#">
+                  </a>
+                  <a href="#" title="Zalo"><img src="D:\DanhSachThanhVien\imgDS\zalo.png" class="socialsimg"></a><a href="#">
+                  </a>
+                  <a href="#" title="instagram"><img src="D:\DanhSachThanhVien\imgDS\instagram.png" class="socialsimg"></a><a href="#">
+                  </a>
+                </a>
+                </div>
+              </div>
+            </div>
+            
+            <div class="item">
+                <div class="avatar">
+                  <img src="C:\Users\TRAN PHUOC DAT\Downloads\DanhSachThanhVien\imgDS\Dung.jpg" alt="Avatar 4">
+                </div>
+                <div class="content">
+                  <h3 class="name">
+                    Trần Thị Mỹ Dung
+                  </h3>
+                  <div class="position">
+                    Thành viên
+                  </div>
+                  <div class="address">
+                    <img src="D:\DanhSachThanhVien\imgDS\location.png" class="socialsimg"> 12, TP.HCM, VN
+                  </div>
+                  <p class="description">
+                    Tìm ảnh, nội dung
+                  </p>
+                  <div class="socials">
+                    <a href="#" title="Facebook"><img src="D:\DanhSachThanhVien\imgDS\facebook.png" class="socialsimg"></a><a href="#">
+                    </a>
+                    <a href="#" title="Zalo"><img src="D:\DanhSachThanhVien\imgDS\zalo.png" class="socialsimg"></a><a href="#">
+                    </a>
+                    <a href="#" title="instagram"><img src="D:\DanhSachThanhVien\imgDS\instagram.png" class="socialsimg"></a><a href="#">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            
+              <div class="item">
+                <div class="avatar">
+                  <img src="C:\Users\TRAN PHUOC DAT\Downloads\DanhSachThanhVien\imgDS\Hang.jpg" alt="Avatar 5">
+                </div>
+                <div class="content">
+                  <h3 class="name">
+                    Nguyễn Thị Bích Hằng
+                  </h3>
+                  <div class="position">
+                    Thành viên
+                  </div>
+                  <div class="address">
+                    <img src="D:\DanhSachThanhVien\imgDS\location.png" class="socialsimg"> Bình Tân, TP.HCM, VN
+                  </div>
+                  <p class="description">
+                    Làm Word
+                  </p>
+                  <div class="socials">
+                    <a href="#" title="Facebook"><img src="D:\DanhSachThanhVien\imgDS\facebook.png" class="socialsimg"></a><a href="#"> 
+                    </a>
+                    <a href="#" title="Zalo"><img src="D:\DanhSachThanhVien\imgDS\zalo.png" class="socialsimg"></a><a href="#">
+                    </a>
+                    <a href="#" title="instagram"><img src="D:\DanhSachThanhVien\imgDS\instagram.png" class="socialsimg"></a><a href="#">
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>    
+</body>
+</html>      
+
